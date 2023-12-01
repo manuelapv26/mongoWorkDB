@@ -1,0 +1,161 @@
+// products.mongodb
+
+use("pet_store")
+
+db.products.drop() // elimina los documentos creados en la colleccion anteriormente
+
+db.products.insertMany([
+  {
+    _id: 1,
+    name: "Prodcut 1",
+    title: "Galletas Naturales",
+    price: 100,
+    description:"Galletas Snacks naturales M-Kg",
+    category: "Comida para mascostas",
+  },
+  {
+    _id: 2,
+    name: "Prodcut 2",
+    title:"Cama Mascotas Perro",
+    price: 20,
+    description:"Memory Foam Tamaño Grande",
+    category:"Cama Mascotas",
+  },
+  {
+    _id: 3,
+    name: "Prodcut 3",
+    title:"Chaleco para perros",
+    price: 120,
+    description:"Buzo Chaleco de lana para perro y gato",
+    category:"Ropa para mascotas",
+  },
+  {
+    _id: 4,
+    name: "Prodcut 4",
+    title:"Maleta para mascotas",
+    price: 120,
+    description:"Maleta de lujo para mascotas perros o gatos",
+    category:"Accesorios para mascotas",
+  },
+  {
+    _id: 5,
+    name: "Prodcut 5",
+    title:"Comedero para mascotas",
+    price: 100,
+    description:"Comedero anti reflujo mascotas control ansiedad",
+    category:"Accesorios para mascotas",
+
+  },
+  {
+    _id: 6,
+    name: "Prodcut 6",
+    title:"Guante para peinar",
+    price: 90,
+    description:"guante para peinar y masajear despues del baño",
+    category:"Limpieza para mascotas",
+  },
+  {
+    _id: 7,
+    name: "Prodcut 7",
+    title:"Quita pelos",
+    price: 110,
+    description:"Quita pelos mascotas removedor en las superficies",
+    category:"Limpieza para mascotas",
+  },
+  {
+    _id: 8,
+    name: "Prodcut 8",
+    title:"Colchoneta para mascotas",
+    price: 130,
+    description:"Colchoneta 100x60 antifluido",
+    category:"Cama para mascotas",
+  },
+  {
+    _id: 10,
+    name: "Prodcut 10",
+    title:"Cepillo removedor",
+    price: 150,
+    description:"Cepillo removedor cortanudos deslanador",
+    category:"Limpieza para mascotas"
+  },
+  {
+    _id: 11,
+    name: "Prodcut 11",
+    title:"Buzo para mascotas",
+    price: 100,
+    description:"buzo con orejitas abrigador para perros y gatos",
+    category:"Ropa para mascotas",
+  },
+  {
+    _id: 12,
+    name: "Prodcut 12",
+    title:"Buzo azul",
+    price: 50,
+    description:"Buzo azul para perros y gatos medianos",
+    category:"Ropa para mascotas",
+  },
+  {
+    _id: 13,
+    name: "Prodcut 13",
+    title:"Antiparasitario",
+    price: 70,
+    description:"Antiparasitario para perros y gatos",
+    category:"Comida para perros",
+  },
+  {
+    _id: 14,
+    name: "Prodcut 14",
+    title:"Shampoo Sebocalm",
+    price: 80,
+    description:"Shampoo Sebocalm para perros y gatos 250ml",
+    category:"Limpieza para Mascotas",
+  },
+  {
+    _id: 15,
+    name: "Prodcut 15",
+    title:"Casa para mascotas",
+    price: 90,
+    description:"Casa para perros (40x40)",
+    category:"Accesorios para perros",
+  },
+  {
+    _id: 16,
+    name: "Prodcut 16",
+    title:"Shampoo dermohidratante",
+    price: 40,
+    description:"Shampoo dermohidratante mascotas pet life 250ml",
+    category:"Limpieza para perros",
+  },
+  {
+    _id: 17,
+    name: "Prodcut 17",
+    title:"Cepillo secador",
+    price: 10,
+    description:"Cepillo secador para perros o gatos humedad pelo",
+    category:"Accesorios para gato",
+  },
+  {
+    _id: 18,
+    name: "Prodcut 18",
+    title:"Cama circular",
+    price: 150,
+    description:"Cama circular para gato armable",
+    category:"Accesorios para mascotas",
+  },
+  {
+    _id: 19,
+    name: "Prodcut 19",
+    title:"Cargador de mascotas",
+    price: 100,
+    description:"Cargador canguro para perros talla S",
+    category:"Accesorios para mascotas"
+  },
+  {
+    _id: 20,
+    name: "Prodcut 20",
+    title:"Cama doble faz",
+    price: 70,
+    description:"Cama graande doble faz acompañada de cobija",
+    category:"Cama para perros"
+  },
+])
